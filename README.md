@@ -1,4 +1,4 @@
-# Cutomer-churn-ANN-LR-RFC
+# Cutomer-churn-ANN-LR-DTC-RFC
  a deep learning model ANN  and building a Supervised Learning Model Logistic Regression to predict the churn and comparing both models
 
 
