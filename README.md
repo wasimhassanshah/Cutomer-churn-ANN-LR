@@ -1,4 +1,4 @@
-# Cutomer-churn-ANN-LR
+# Cutomer-churn-ANN-LR-RFC
  a deep learning model ANN  and building a Supervised Learning Model Logistic Regression to predict the churn and comparing both models
 
 
@@ -16,8 +16,11 @@ The main objective of my project was to build a predictive model to generate a p
 
 # Model
 
-I fit a logistic regression model using all of the features.The accuracy score of this model is found to be 0.79.
-Then I fit ANN model. .The accuracy score of this model is found to be 0.78
+I fit a logistic regression model using all of the features.The accuracy score of this model is found to be 0.77.
+Then I RandomForest Classifier model. .The accuracy score of this model is found to be 0.77
+Then I fit ANN model. .The accuracy score of this model is found to be 0.73.
+Overall Logistic Regression gives good Recall Score which is required in this case to determine the number of true positives (correctly identified churners)
+to take preventive actions to decrease the loss in business
 
 # Data Set Information
 I used the IBM telecom dataset available from kaggle.com.The raw data contained 7043 rows (customers) and 20 columns (features). The “Churn” column was my target variable.
